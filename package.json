@@ -1,0 +1,37 @@
+{
+  "name": "mealcart",
+  "version": "1.0.0",
+  "description": "MealCart - AI-powered recipe and grocery list generator",
+  "main": "api/index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "install:all": "npm run install:frontend",
+    "install:frontend": "cd frontend && npm install",
+    "install:backend": "echo 'Backend not present'",
+    "start:frontend": "cd frontend && npm run dev",
+    "start:backend": "echo 'Backend not present'",
+    "start": "npm run start:frontend",
+    "build:frontend": "cd frontend && npm run build",
+    "build:backend": "echo 'Backend not present'",
+    "build": "npm run build:frontend"
+  },
+  "keywords": [
+    "recipe",
+    "grocery",
+    "AI",
+    "MERN",
+    "React",
+    "Node.js"
+  ],
+  "author": "Satish Sahu",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^8.2.1"
+  }
+}
